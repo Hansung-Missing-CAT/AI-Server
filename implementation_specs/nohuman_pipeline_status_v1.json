@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-05-20T06:22:30.558937+00:00",
+  "status": "ok-partial",
+  "note": "no-human pipeline validated with reduced sample size (real-count=20)",
+  "anchor_summary": {
+    "total": 32,
+    "success": 32,
+    "evaluated_count": 32,
+    "top1_accuracy": 0.875,
+    "success_rate": 1.0
+  },
+  "pseudolabel_count": 20,
+  "artifacts": [
+    "implementation_specs/catapi_anchor_dataset.json",
+    "implementation_specs/catapi_anchor_ground_truth_mapped.json",
+    "implementation_specs/18_anchor_eval_result.json",
+    "implementation_specs/real_dataset_100_pseudolabel_v3.json",
+    "implementation_specs/final_quality_report_nohuman_v1.md"
+  ]
+}

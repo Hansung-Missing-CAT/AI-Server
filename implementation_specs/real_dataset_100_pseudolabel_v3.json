@@ -1,0 +1,322 @@
+{
+  "items": [
+    {
+      "id": "real_cat_001",
+      "file_name": "00000001_000.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_000.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "브리티시 숏헤어",
+        "claude": "unknown",
+        "embedding": "브리티시 숏헤어"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.91,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_002",
+      "file_name": "00000001_005.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_005.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "unknown",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.7,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_003",
+      "file_name": "00000001_008.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_008.jpg",
+      "expected_label": "칼리코",
+      "label_source": {
+        "cat_api": "칼리코",
+        "claude": "칼리코",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 1.0,
+      "quality_score": 0.91,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_004",
+      "file_name": "00000001_011.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_011.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "unknown",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.8,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_005",
+      "file_name": "00000001_012.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_012.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "브리티시 숏헤어",
+        "claude": "브리티시 숏헤어",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.91,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_006",
+      "file_name": "00000001_016.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_016.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "unknown",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.7,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_007",
+      "file_name": "00000001_017.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_017.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "아비시니안",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.3333,
+      "quality_score": 0.87,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_008",
+      "file_name": "00000001_020.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_020.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "아비시니안",
+        "claude": "아비시니안",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.91,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_009",
+      "file_name": "00000001_024.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_024.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "아비시니안",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.3333,
+      "quality_score": 0.88,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_010",
+      "file_name": "00000001_027.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_027.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "브리티시 숏헤어",
+        "claude": "브리티시 숏헤어",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.91,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_011",
+      "file_name": "00000001_029.jpg",
+      "image_url": "http://127.0.0.1:18080/00000001_029.jpg",
+      "expected_label": "칼리코",
+      "label_source": {
+        "cat_api": "칼리코",
+        "claude": "칼리코",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 1.0,
+      "quality_score": 0.9,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_012",
+      "file_name": "00000002_001.jpg",
+      "image_url": "http://127.0.0.1:18080/00000002_001.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "아비시니안",
+        "claude": "아비시니안",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.92,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_013",
+      "file_name": "00000002_003.jpg",
+      "image_url": "http://127.0.0.1:18080/00000002_003.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "아비시니안",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.3333,
+      "quality_score": 0.9,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_014",
+      "file_name": "00000002_008.jpg",
+      "image_url": "http://127.0.0.1:18080/00000002_008.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "unknown",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.9,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_015",
+      "file_name": "00000002_026.jpg",
+      "image_url": "http://127.0.0.1:18080/00000002_026.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "칼리코",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.91,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_016",
+      "file_name": "00000003_007.jpg",
+      "image_url": "http://127.0.0.1:18080/00000003_007.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "unknown",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.8,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_017",
+      "file_name": "00000003_009.jpg",
+      "image_url": "http://127.0.0.1:18080/00000003_009.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "unknown",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.6667,
+      "quality_score": 0.8,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_018",
+      "file_name": "00000003_012.jpg",
+      "image_url": "http://127.0.0.1:18080/00000003_012.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "브리티시 숏헤어",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.3333,
+      "quality_score": 0.88,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_019",
+      "file_name": "00000003_013.jpg",
+      "image_url": "http://127.0.0.1:18080/00000003_013.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "아비시니안",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.3333,
+      "quality_score": 0.81,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    },
+    {
+      "id": "real_cat_020",
+      "file_name": "00000003_015.jpg",
+      "image_url": "http://127.0.0.1:18080/00000003_015.jpg",
+      "expected_label": "unknown",
+      "label_source": {
+        "cat_api": "브리티시 숏헤어",
+        "claude": "unknown",
+        "embedding": "칼리코"
+      },
+      "consensus_score": 0.3333,
+      "quality_score": 0.92,
+      "attempts": 1,
+      "notes": "auto-pseudolabel-v3"
+    }
+  ],
+  "prototypes": [
+    {
+      "label": "아비시니안",
+      "prototype": "짧은 털, 티킹 패턴, 슬림한 체형, 큰 귀"
+    },
+    {
+      "label": "브리티시 숏헤어",
+      "prototype": "둥근 얼굴, 통통한 체형, 촘촘한 단모"
+    },
+    {
+      "label": "칼리코",
+      "prototype": "흰색과 주황/갈색/검정이 섞인 3색 패턴"
+    },
+    {
+      "label": "unknown",
+      "prototype": "근거 부족 또는 품종 판별 불가"
+    }
+  ]
+}

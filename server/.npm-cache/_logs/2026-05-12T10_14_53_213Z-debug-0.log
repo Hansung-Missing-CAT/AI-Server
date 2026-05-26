@@ -1,0 +1,534 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/chaeminsoo/모바일 캡스톤/backend-server/server/.npmrc
+5 silly config load:file:/Users/chaeminsoo/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/chaeminsoo/모바일 캡스톤/backend-server/server/.npm-cache/_logs/2026-05-12T10_14_53_213Z-
+10 verbose logfile /Users/chaeminsoo/모바일 캡스톤/backend-server/server/.npm-cache/_logs/2026-05-12T10_14_53_213Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly fetch manifest swagger-jsdoc@^6.2.8
+16 silly packumentCache full:https://registry.npmjs.org/swagger-jsdoc cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/swagger-jsdoc 82ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/swagger-jsdoc set size:undefined disposed:false
+19 silly fetch manifest swagger-ui-express@^5.0.1
+20 silly packumentCache full:https://registry.npmjs.org/swagger-ui-express cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/npm 160ms
+22 http fetch GET 200 https://registry.npmjs.org/swagger-ui-express 47ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/swagger-ui-express set size:undefined disposed:false
+24 silly fetch manifest express@^4.21.2
+25 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/express 56ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/express set size:undefined disposed:false
+28 silly placeDep ROOT swagger-jsdoc@6.2.8 OK for: missing-pet-finder-server@0.1.0 want: ^6.2.8
+29 silly placeDep ROOT swagger-ui-express@5.0.1 OK for: missing-pet-finder-server@0.1.0 want: ^5.0.1
+30 silly fetch manifest glob@7.1.6
+31 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+32 silly fetch manifest yaml@2.0.0-1
+33 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+34 silly fetch manifest doctrine@3.0.0
+35 silly packumentCache full:https://registry.npmjs.org/doctrine cache-miss
+36 silly fetch manifest commander@6.2.0
+37 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+38 silly fetch manifest swagger-parser@^10.0.3
+39 silly packumentCache full:https://registry.npmjs.org/swagger-parser cache-miss
+40 silly fetch manifest lodash.mergewith@^4.6.2
+41 silly packumentCache full:https://registry.npmjs.org/lodash.mergewith cache-miss
+42 silly fetch manifest swagger-ui-dist@>=5.0.0
+43 silly packumentCache full:https://registry.npmjs.org/swagger-ui-dist cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/glob 41ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/yaml 47ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/doctrine 50ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/doctrine set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/commander 63ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/lodash.mergewith 89ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/lodash.mergewith set size:undefined disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/swagger-ui-dist 90ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/swagger-ui-dist set size:undefined disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/swagger-parser 241ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/swagger-parser set size:undefined disposed:false
+58 silly placeDep ROOT commander@6.2.0 OK for: swagger-jsdoc@6.2.8 want: 6.2.0
+59 silly placeDep ROOT doctrine@3.0.0 OK for: swagger-jsdoc@6.2.8 want: 3.0.0
+60 silly placeDep ROOT glob@7.1.6 OK for: swagger-jsdoc@6.2.8 want: 7.1.6
+61 silly placeDep ROOT lodash.mergewith@4.6.2 OK for: swagger-jsdoc@6.2.8 want: ^4.6.2
+62 silly placeDep ROOT swagger-parser@10.0.3 OK for: swagger-jsdoc@6.2.8 want: ^10.0.3
+63 silly placeDep ROOT yaml@2.0.0-1 OK for: swagger-jsdoc@6.2.8 want: 2.0.0-1
+64 silly fetch manifest esutils@^2.0.2
+65 silly packumentCache full:https://registry.npmjs.org/esutils cache-miss
+66 silly fetch manifest once@^1.3.0
+67 silly packumentCache full:https://registry.npmjs.org/once cache-miss
+68 silly fetch manifest inflight@^1.0.4
+69 silly packumentCache full:https://registry.npmjs.org/inflight cache-miss
+70 silly fetch manifest minimatch@^3.0.4
+71 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+72 silly fetch manifest fs.realpath@^1.0.0
+73 silly packumentCache full:https://registry.npmjs.org/fs.realpath cache-miss
+74 silly fetch manifest path-is-absolute@^1.0.0
+75 silly packumentCache full:https://registry.npmjs.org/path-is-absolute cache-miss
+76 silly fetch manifest @apidevtools/swagger-parser@10.0.3
+77 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fswagger-parser cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/once 39ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/once set size:undefined disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/esutils 40ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/esutils set size:undefined disposed:false
+82 http fetch GET 200 https://registry.npmjs.org/inflight 40ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/inflight set size:undefined disposed:false
+84 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 39ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/path-is-absolute set size:undefined disposed:false
+86 http fetch GET 200 https://registry.npmjs.org/fs.realpath 41ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/fs.realpath set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/minimatch 50ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/@apidevtools%2fswagger-parser 439ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fswagger-parser set size:undefined disposed:false
+92 silly placeDep ROOT esutils@2.0.3 OK for: doctrine@3.0.0 want: ^2.0.2
+93 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.1.6 want: ^1.0.0
+94 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.1.6 want: ^1.0.4
+95 silly placeDep node_modules/glob minimatch@3.1.5 OK for: glob@7.1.6 want: ^3.0.4
+96 silly placeDep ROOT once@1.4.0 OK for: glob@7.1.6 want: ^1.3.0
+97 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.1.6 want: ^1.0.0
+98 silly fetch manifest wrappy@1
+99 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+100 silly fetch manifest brace-expansion@^1.1.7
+101 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+102 silly fetch manifest wrappy@1
+103 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/wrappy 24ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/wrappy set size:undefined disposed:false
+106 http fetch GET 200 https://registry.npmjs.org/wrappy 25ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/wrappy set size:undefined disposed:false
+108 http fetch GET 200 https://registry.npmjs.org/brace-expansion 31ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:undefined disposed:false
+110 silly placeDep ROOT wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+111 silly fetch manifest openapi-types@>=7
+112 silly packumentCache full:https://registry.npmjs.org/openapi-types cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/openapi-types 27ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/openapi-types set size:undefined disposed:false
+115 silly placeDep ROOT @apidevtools/swagger-parser@10.0.3 OK for: swagger-parser@10.0.3 want: 10.0.3
+116 silly placeDep ROOT openapi-types@12.1.3 OK for: @apidevtools/swagger-parser@10.0.3 want: >=7
+117 silly fetch manifest z-schema@^5.0.1
+118 silly packumentCache full:https://registry.npmjs.org/z-schema cache-miss
+119 silly fetch manifest call-me-maybe@^1.0.1
+120 silly packumentCache full:https://registry.npmjs.org/call-me-maybe cache-miss
+121 silly fetch manifest @jsdevtools/ono@^7.1.3
+122 silly packumentCache full:https://registry.npmjs.org/@jsdevtools%2fono cache-miss
+123 silly fetch manifest @apidevtools/openapi-schemas@^2.0.4
+124 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fopenapi-schemas cache-miss
+125 silly fetch manifest @apidevtools/swagger-methods@^3.0.2
+126 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fswagger-methods cache-miss
+127 silly fetch manifest @apidevtools/json-schema-ref-parser@^9.0.6
+128 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fjson-schema-ref-parser cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/call-me-maybe 30ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/call-me-maybe set size:undefined disposed:false
+131 http fetch GET 200 https://registry.npmjs.org/@jsdevtools%2fono 42ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/@jsdevtools%2fono set size:undefined disposed:false
+133 http fetch GET 200 https://registry.npmjs.org/@apidevtools%2fjson-schema-ref-parser 43ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fjson-schema-ref-parser set size:undefined disposed:false
+135 http fetch GET 200 https://registry.npmjs.org/z-schema 49ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/z-schema set size:undefined disposed:false
+137 http fetch GET 200 https://registry.npmjs.org/@apidevtools%2fswagger-methods 178ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fswagger-methods set size:undefined disposed:false
+139 http fetch GET 200 https://registry.npmjs.org/@apidevtools%2fopenapi-schemas 194ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/@apidevtools%2fopenapi-schemas set size:undefined disposed:false
+141 silly placeDep ROOT @apidevtools/json-schema-ref-parser@9.1.2 OK for: @apidevtools/swagger-parser@10.0.3 want: ^9.0.6
+142 silly placeDep ROOT @apidevtools/openapi-schemas@2.1.0 OK for: @apidevtools/swagger-parser@10.0.3 want: ^2.0.4
+143 silly placeDep ROOT @apidevtools/swagger-methods@3.0.2 OK for: @apidevtools/swagger-parser@10.0.3 want: ^3.0.2
+144 silly placeDep ROOT @jsdevtools/ono@7.1.3 OK for: @apidevtools/swagger-parser@10.0.3 want: ^7.1.3
+145 silly placeDep ROOT call-me-maybe@1.0.2 OK for: @apidevtools/swagger-parser@10.0.3 want: ^1.0.1
+146 silly placeDep ROOT z-schema@5.0.5 OK for: @apidevtools/swagger-parser@10.0.3 want: ^5.0.1
+147 silly fetch manifest js-yaml@^4.1.0
+148 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+149 silly fetch manifest @types/json-schema@^7.0.6
+150 silly packumentCache full:https://registry.npmjs.org/@types%2fjson-schema cache-miss
+151 silly fetch manifest lodash.get@^4.4.2
+152 silly packumentCache full:https://registry.npmjs.org/lodash.get cache-miss
+153 silly fetch manifest lodash.isequal@^4.5.0
+154 silly packumentCache full:https://registry.npmjs.org/lodash.isequal cache-miss
+155 silly fetch manifest commander@^9.4.1
+156 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+157 http cache https://registry.npmjs.org/commander 8ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/commander set size:306288 disposed:false
+159 http fetch GET 200 https://registry.npmjs.org/lodash.get 25ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/lodash.get set size:undefined disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/lodash.isequal 28ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/lodash.isequal set size:undefined disposed:false
+163 http fetch GET 200 https://registry.npmjs.org/js-yaml 30ms (cache miss)
+164 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 37ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/@types%2fjson-schema set size:undefined disposed:false
+167 silly placeDep ROOT @types/json-schema@7.0.15 OK for: @apidevtools/json-schema-ref-parser@9.1.2 want: ^7.0.6
+168 silly placeDep ROOT js-yaml@4.1.1 OK for: @apidevtools/json-schema-ref-parser@9.1.2 want: ^4.1.0
+169 silly fetch manifest argparse@^2.0.1
+170 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/argparse 33ms (cache miss)
+172 silly packumentCache full:https://registry.npmjs.org/argparse set size:undefined disposed:false
+173 silly placeDep ROOT argparse@2.0.1 OK for: js-yaml@4.1.1 want: ^2.0.1
+174 silly placeDep ROOT swagger-ui-dist@5.32.6 OK for: swagger-ui-express@5.0.1 want: >=5.0.0
+175 silly fetch manifest @scarf/scarf@=1.4.0
+176 silly packumentCache full:https://registry.npmjs.org/@scarf%2fscarf cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@scarf%2fscarf 45ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@scarf%2fscarf set size:undefined disposed:false
+179 silly placeDep ROOT @scarf/scarf@1.4.0 OK for: swagger-ui-dist@5.32.6 want: =1.4.0
+180 silly placeDep node_modules/z-schema commander@9.5.0 OK for: z-schema@5.0.5 want: ^9.4.1
+181 silly placeDep ROOT lodash.get@4.4.2 OK for: z-schema@5.0.5 want: ^4.4.2
+182 silly placeDep ROOT lodash.isequal@4.5.0 OK for: z-schema@5.0.5 want: ^4.5.0
+183 silly placeDep node_modules/glob brace-expansion@1.1.14 OK for: minimatch@3.1.5 want: ^1.1.7
+184 silly fetch manifest concat-map@0.0.1
+185 silly packumentCache full:https://registry.npmjs.org/concat-map cache-miss
+186 silly fetch manifest balanced-match@^1.0.0
+187 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/concat-map 25ms (cache miss)
+189 silly packumentCache full:https://registry.npmjs.org/concat-map set size:undefined disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/balanced-match 27ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:undefined disposed:false
+192 silly placeDep node_modules/glob balanced-match@1.0.2 OK for: brace-expansion@1.1.14 want: ^1.0.0
+193 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.14 want: 0.0.1
+194 silly reify moves {}
+195 silly audit bulk request {
+195 silly audit   '@ioredis/commands': [ '1.5.1' ],
+195 silly audit   '@msgpackr-extract/msgpackr-extract-darwin-arm64': [ '3.0.3' ],
+195 silly audit   '@msgpackr-extract/msgpackr-extract-darwin-x64': [ '3.0.3' ],
+195 silly audit   '@msgpackr-extract/msgpackr-extract-linux-arm': [ '3.0.3' ],
+195 silly audit   '@msgpackr-extract/msgpackr-extract-linux-arm64': [ '3.0.3' ],
+195 silly audit   '@msgpackr-extract/msgpackr-extract-linux-x64': [ '3.0.3' ],
+195 silly audit   '@msgpackr-extract/msgpackr-extract-win32-x64': [ '3.0.3' ],
+195 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+195 silly audit   '@supabase/auth-js': [ '2.105.3' ],
+195 silly audit   '@supabase/functions-js': [ '2.105.3' ],
+195 silly audit   '@supabase/phoenix': [ '0.4.1' ],
+195 silly audit   '@supabase/postgrest-js': [ '2.105.3' ],
+195 silly audit   '@supabase/realtime-js': [ '2.105.3' ],
+195 silly audit   '@supabase/storage-js': [ '2.105.3' ],
+195 silly audit   '@supabase/supabase-js': [ '2.105.3' ],
+195 silly audit   '@types/cors': [ '2.8.19' ],
+195 silly audit   '@types/node': [ '25.6.0' ],
+195 silly audit   '@types/ws': [ '8.18.1' ],
+195 silly audit   accepts: [ '1.3.8' ],
+195 silly audit   anymatch: [ '3.1.3' ],
+195 silly audit   'array-flatten': [ '1.1.1' ],
+195 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+195 silly audit   base64id: [ '2.0.0' ],
+195 silly audit   'basic-auth': [ '2.0.1' ],
+195 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+195 silly audit   'binary-extensions': [ '2.3.0' ],
+195 silly audit   'body-parser': [ '1.20.5' ],
+195 silly audit   qs: [ '6.15.1', '6.14.2' ],
+195 silly audit   'brace-expansion': [ '5.0.5', '1.1.14' ],
+195 silly audit   braces: [ '3.0.3' ],
+195 silly audit   bullmq: [ '5.76.5' ],
+195 silly audit   bytes: [ '3.1.2' ],
+195 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+195 silly audit   'call-bound': [ '1.0.4' ],
+195 silly audit   chokidar: [ '3.6.0' ],
+195 silly audit   'cluster-key-slot': [ '1.1.2' ],
+195 silly audit   'content-disposition': [ '0.5.4' ],
+195 silly audit   'content-type': [ '1.0.5' ],
+195 silly audit   cookie: [ '0.7.2' ],
+195 silly audit   'cookie-signature': [ '1.0.7' ],
+195 silly audit   cors: [ '2.8.6' ],
+195 silly audit   'cron-parser': [ '4.9.0' ],
+195 silly audit   debug: [ '2.6.9', '4.4.3' ],
+195 silly audit   denque: [ '2.1.0' ],
+195 silly audit   depd: [ '2.0.0' ],
+195 silly audit   destroy: [ '1.2.0' ],
+195 silly audit   'detect-libc': [ '2.1.2' ],
+195 silly audit   dotenv: [ '16.6.1' ],
+195 silly audit   'dunder-proto': [ '1.0.1' ],
+195 silly audit   'ee-first': [ '1.1.1' ],
+195 silly audit   encodeurl: [ '2.0.0' ],
+195 silly audit   'engine.io': [ '6.6.7' ],
+195 silly audit   'engine.io-parser': [ '5.2.3' ],
+195 silly audit   ms: [ '2.1.3', '2.0.0' ],
+195 silly audit   ws: [ '8.18.3', '8.20.0' ],
+195 silly audit   'es-define-property': [ '1.0.1' ],
+195 silly audit   'es-errors': [ '1.3.0' ],
+195 silly audit   'es-object-atoms': [ '1.1.1' ],
+195 silly audit   'escape-html': [ '1.0.3' ],
+195 silly audit   etag: [ '1.8.1' ],
+195 silly audit   express: [ '4.22.1' ],
+195 silly audit   'express-validator': [ '7.3.2' ],
+195 silly audit   'fill-range': [ '7.1.1' ],
+195 silly audit   finalhandler: [ '1.3.2' ],
+195 silly audit   forwarded: [ '0.2.0' ],
+195 silly audit   fresh: [ '0.5.2' ],
+195 silly audit   fsevents: [ '2.3.3' ],
+195 silly audit   'function-bind': [ '1.1.2' ],
+195 silly audit   'get-intrinsic': [ '1.3.0' ],
+195 silly audit   'get-proto': [ '1.0.1' ],
+195 silly audit   'glob-parent': [ '5.1.2' ],
+195 silly audit   gopd: [ '1.2.0' ],
+195 silly audit   'has-flag': [ '3.0.0' ],
+195 silly audit   'has-symbols': [ '1.1.0' ],
+195 silly audit   hasown: [ '2.0.3' ],
+195 silly audit   helmet: [ '8.1.0' ],
+195 silly audit   'http-errors': [ '2.0.1' ],
+195 silly audit   'iceberg-js': [ '0.8.1' ],
+195 silly audit   'iconv-lite': [ '0.4.24' ],
+195 silly audit   'ignore-by-default': [ '1.0.1' ],
+195 silly audit   inherits: [ '2.0.4' ],
+195 silly audit   ioredis: [ '5.10.1' ],
+195 silly audit   'ipaddr.js': [ '1.9.1' ],
+195 silly audit   'is-binary-path': [ '2.1.0' ],
+195 silly audit   'is-extglob': [ '2.1.1' ],
+195 silly audit   'is-glob': [ '4.0.3' ],
+195 silly audit   'is-number': [ '7.0.0' ],
+195 silly audit   lodash: [ '4.18.1' ],
+195 silly audit   'lodash.defaults': [ '4.2.0' ],
+195 silly audit   'lodash.isarguments': [ '3.1.0' ],
+195 silly audit   luxon: [ '3.7.2' ],
+195 silly audit   'math-intrinsics': [ '1.1.0' ],
+195 silly audit   'media-typer': [ '0.3.0' ],
+195 silly audit   'merge-descriptors': [ '1.0.3' ],
+195 silly audit   methods: [ '1.1.2' ],
+195 silly audit   mime: [ '1.6.0' ],
+195 silly audit   'mime-db': [ '1.52.0' ],
+195 silly audit   'mime-types': [ '2.1.35' ],
+195 silly audit   minimatch: [ '10.2.5', '3.1.5' ],
+195 silly audit   morgan: [ '1.10.1' ],
+195 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+195 silly audit   msgpackr: [ '1.11.12' ],
+195 silly audit   'msgpackr-extract': [ '3.0.3' ],
+195 silly audit   negotiator: [ '0.6.3' ],
+195 silly audit   'node-abort-controller': [ '3.1.1' ],
+195 silly audit   'node-gyp-build-optional-packages': [ '5.2.2' ],
+195 silly audit   nodemon: [ '3.1.14' ],
+195 silly audit   'normalize-path': [ '3.0.0' ],
+195 silly audit   'object-assign': [ '4.1.1' ],
+195 silly audit   'object-inspect': [ '1.13.4' ],
+195 silly audit   'on-headers': [ '1.1.0' ],
+195 silly audit   parseurl: [ '1.3.3' ],
+195 silly audit   'path-to-regexp': [ '0.1.13' ],
+195 silly audit   picomatch: [ '2.3.2' ],
+195 silly audit   'proxy-addr': [ '2.0.7' ],
+195 silly audit   'pstree.remy': [ '1.1.8' ],
+195 silly audit   'range-parser': [ '1.2.1' ],
+195 silly audit   'raw-body': [ '2.5.3' ],
+195 silly audit   readdirp: [ '3.6.0' ],
+195 silly audit   'redis-errors': [ '1.2.0' ],
+195 silly audit   'redis-parser': [ '3.0.0' ],
+195 silly audit   'safer-buffer': [ '2.1.2' ],
+195 silly audit   semver: [ '7.7.4' ],
+195 silly audit   send: [ '0.19.2' ],
+195 silly audit   'serve-static': [ '1.16.3' ],
+195 silly audit   setprototypeof: [ '1.2.0' ],
+195 silly audit   'side-channel': [ '1.1.0' ],
+195 silly audit   'side-channel-list': [ '1.0.1' ],
+195 silly audit   'side-channel-map': [ '1.0.1' ],
+195 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+195 silly audit   'simple-update-notifier': [ '2.0.0' ],
+195 silly audit   'socket.io': [ '4.8.3' ],
+195 silly audit   'socket.io-adapter': [ '2.5.6' ],
+195 silly audit   'socket.io-parser': [ '4.2.6' ],
+195 silly audit   'standard-as-callback': [ '2.1.0' ],
+195 silly audit   statuses: [ '2.0.2' ],
+195 silly audit   'supports-color': [ '5.5.0' ],
+195 silly audit   'to-regex-range': [ '5.0.1' ],
+195 silly audit   toidentifier: [ '1.0.1' ],
+195 silly audit   touch: [ '3.1.1' ],
+195 silly audit   tslib: [ '2.8.1' ],
+195 silly audit   'type-is': [ '1.6.18' ],
+195 silly audit   undefsafe: [ '2.0.5' ],
+195 silly audit   'undici-types': [ '7.19.2' ],
+195 silly audit   unpipe: [ '1.0.0' ],
+195 silly audit   'utils-merge': [ '1.0.1' ],
+195 silly audit   validator: [ '13.15.35' ],
+195 silly audit   vary: [ '1.1.2' ],
+195 silly audit   'swagger-jsdoc': [ '6.2.8' ],
+195 silly audit   'swagger-ui-express': [ '5.0.1' ],
+195 silly audit   commander: [ '6.2.0', '9.5.0' ],
+195 silly audit   doctrine: [ '3.0.0' ],
+195 silly audit   glob: [ '7.1.6' ],
+195 silly audit   'lodash.mergewith': [ '4.6.2' ],
+195 silly audit   'swagger-parser': [ '10.0.3' ],
+195 silly audit   yaml: [ '2.0.0-1' ],
+195 silly audit   esutils: [ '2.0.3' ],
+195 silly audit   'fs.realpath': [ '1.0.0' ],
+195 silly audit   inflight: [ '1.0.6' ],
+195 silly audit   once: [ '1.4.0' ],
+195 silly audit   'path-is-absolute': [ '1.0.1' ],
+195 silly audit   wrappy: [ '1.0.2' ],
+195 silly audit   '@apidevtools/swagger-parser': [ '10.0.3' ],
+195 silly audit   'openapi-types': [ '12.1.3' ],
+195 silly audit   '@apidevtools/json-schema-ref-parser': [ '9.1.2' ],
+195 silly audit   '@apidevtools/openapi-schemas': [ '2.1.0' ],
+195 silly audit   '@apidevtools/swagger-methods': [ '3.0.2' ],
+195 silly audit   '@jsdevtools/ono': [ '7.1.3' ],
+195 silly audit   'call-me-maybe': [ '1.0.2' ],
+195 silly audit   'z-schema': [ '5.0.5' ],
+195 silly audit   '@types/json-schema': [ '7.0.15' ],
+195 silly audit   'js-yaml': [ '4.1.1' ],
+195 silly audit   argparse: [ '2.0.1' ],
+195 silly audit   'swagger-ui-dist': [ '5.32.6' ],
+195 silly audit   '@scarf/scarf': [ '1.4.0' ],
+195 silly audit   'lodash.get': [ '4.4.2' ],
+195 silly audit   'lodash.isequal': [ '4.5.0' ],
+195 silly audit   'concat-map': [ '0.0.1' ]
+195 silly audit }
+196 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+197 http cache lodash.isequal@https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz 0ms (cache hit)
+198 http cache @scarf/scarf@https://registry.npmjs.org/@scarf/scarf/-/scarf-1.4.0.tgz 0ms (cache hit)
+199 http cache lodash.get@https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz 0ms (cache hit)
+200 http cache argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 0ms (cache hit)
+201 http cache @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 0ms (cache hit)
+202 http cache z-schema@https://registry.npmjs.org/z-schema/-/z-schema-5.0.5.tgz 0ms (cache hit)
+203 http cache call-me-maybe@https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.2.tgz 0ms (cache hit)
+204 http cache swagger-ui-dist@https://registry.npmjs.org/swagger-ui-dist/-/swagger-ui-dist-5.32.6.tgz 0ms (cache hit)
+205 http cache @jsdevtools/ono@https://registry.npmjs.org/@jsdevtools/ono/-/ono-7.1.3.tgz 0ms (cache hit)
+206 http cache @apidevtools/swagger-methods@https://registry.npmjs.org/@apidevtools/swagger-methods/-/swagger-methods-3.0.2.tgz 0ms (cache hit)
+207 http cache @apidevtools/json-schema-ref-parser@https://registry.npmjs.org/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.1.2.tgz 0ms (cache hit)
+208 http cache openapi-types@https://registry.npmjs.org/openapi-types/-/openapi-types-12.1.3.tgz 0ms (cache hit)
+209 http cache @apidevtools/openapi-schemas@https://registry.npmjs.org/@apidevtools/openapi-schemas/-/openapi-schemas-2.1.0.tgz 0ms (cache hit)
+210 http cache @apidevtools/swagger-parser@https://registry.npmjs.org/@apidevtools/swagger-parser/-/swagger-parser-10.0.3.tgz 0ms (cache hit)
+211 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+212 http cache path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 0ms (cache hit)
+213 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+214 http cache inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 0ms (cache hit)
+215 http cache fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 0ms (cache hit)
+216 http cache yaml@https://registry.npmjs.org/yaml/-/yaml-2.0.0-1.tgz 0ms (cache hit)
+217 http cache esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz 0ms (cache hit)
+218 http cache swagger-parser@https://registry.npmjs.org/swagger-parser/-/swagger-parser-10.0.3.tgz 0ms (cache hit)
+219 http cache lodash.mergewith@https://registry.npmjs.org/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz 0ms (cache hit)
+220 http cache glob@https://registry.npmjs.org/glob/-/glob-7.1.6.tgz 0ms (cache hit)
+221 http cache doctrine@https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz 0ms (cache hit)
+222 http cache commander@https://registry.npmjs.org/commander/-/commander-6.2.0.tgz 0ms (cache hit)
+223 http cache swagger-jsdoc@https://registry.npmjs.org/swagger-jsdoc/-/swagger-jsdoc-6.2.8.tgz 0ms (cache hit)
+224 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+225 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+226 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz 0ms (cache hit)
+227 http cache commander@https://registry.npmjs.org/commander/-/commander-9.5.0.tgz 0ms (cache hit)
+228 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz 0ms (cache hit)
+229 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+230 http cache swagger-ui-express@https://registry.npmjs.org/swagger-ui-express/-/swagger-ui-express-5.0.1.tgz 0ms (cache hit)
+231 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+232 silly tarball no local data for lodash.isequal@https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz. Extracting by manifest.
+233 silly tarball no local data for @scarf/scarf@https://registry.npmjs.org/@scarf/scarf/-/scarf-1.4.0.tgz. Extracting by manifest.
+234 silly tarball no local data for lodash.get@https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz. Extracting by manifest.
+235 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz. Extracting by manifest.
+236 silly tarball no local data for @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz. Extracting by manifest.
+237 silly tarball no local data for z-schema@https://registry.npmjs.org/z-schema/-/z-schema-5.0.5.tgz. Extracting by manifest.
+238 silly tarball no local data for call-me-maybe@https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.2.tgz. Extracting by manifest.
+239 silly tarball no local data for swagger-ui-dist@https://registry.npmjs.org/swagger-ui-dist/-/swagger-ui-dist-5.32.6.tgz. Extracting by manifest.
+240 silly tarball no local data for @jsdevtools/ono@https://registry.npmjs.org/@jsdevtools/ono/-/ono-7.1.3.tgz. Extracting by manifest.
+241 silly tarball no local data for @apidevtools/swagger-methods@https://registry.npmjs.org/@apidevtools/swagger-methods/-/swagger-methods-3.0.2.tgz. Extracting by manifest.
+242 silly tarball no local data for @apidevtools/json-schema-ref-parser@https://registry.npmjs.org/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.1.2.tgz. Extracting by manifest.
+243 silly tarball no local data for openapi-types@https://registry.npmjs.org/openapi-types/-/openapi-types-12.1.3.tgz. Extracting by manifest.
+244 silly tarball no local data for @apidevtools/openapi-schemas@https://registry.npmjs.org/@apidevtools/openapi-schemas/-/openapi-schemas-2.1.0.tgz. Extracting by manifest.
+245 silly tarball no local data for @apidevtools/swagger-parser@https://registry.npmjs.org/@apidevtools/swagger-parser/-/swagger-parser-10.0.3.tgz. Extracting by manifest.
+246 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+247 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+248 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+249 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+250 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+251 silly tarball no local data for yaml@https://registry.npmjs.org/yaml/-/yaml-2.0.0-1.tgz. Extracting by manifest.
+252 silly tarball no local data for esutils@https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz. Extracting by manifest.
+253 silly tarball no local data for swagger-parser@https://registry.npmjs.org/swagger-parser/-/swagger-parser-10.0.3.tgz. Extracting by manifest.
+254 silly tarball no local data for lodash.mergewith@https://registry.npmjs.org/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz. Extracting by manifest.
+255 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.1.6.tgz. Extracting by manifest.
+256 silly tarball no local data for doctrine@https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz. Extracting by manifest.
+257 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-6.2.0.tgz. Extracting by manifest.
+258 silly tarball no local data for swagger-jsdoc@https://registry.npmjs.org/swagger-jsdoc/-/swagger-jsdoc-6.2.8.tgz. Extracting by manifest.
+259 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+260 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+261 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz. Extracting by manifest.
+262 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-9.5.0.tgz. Extracting by manifest.
+263 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz. Extracting by manifest.
+264 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz. Extracting by manifest.
+265 silly tarball no local data for swagger-ui-express@https://registry.npmjs.org/swagger-ui-express/-/swagger-ui-express-5.0.1.tgz. Extracting by manifest.
+266 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 52ms (cache miss)
+267 http fetch GET 200 https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz 53ms (cache miss)
+268 warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+269 http fetch GET 200 https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz 54ms (cache miss)
+270 warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+271 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 53ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 53ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/@scarf/scarf/-/scarf-1.4.0.tgz 55ms (cache miss)
+274 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 53ms (cache miss)
+275 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 58ms (cache miss)
+276 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 59ms (cache miss)
+277 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 59ms (cache miss)
+278 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+279 http fetch GET 200 https://registry.npmjs.org/call-me-maybe/-/call-me-maybe-1.0.2.tgz 66ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/@apidevtools/swagger-parser/-/swagger-parser-10.0.3.tgz 68ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/openapi-types/-/openapi-types-12.1.3.tgz 71ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz 88ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/yaml/-/yaml-2.0.0-1.tgz 97ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 98ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/swagger-parser/-/swagger-parser-10.0.3.tgz 98ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz 98ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/@apidevtools/swagger-methods/-/swagger-methods-3.0.2.tgz 111ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.1.6.tgz 110ms (cache miss)
+289 warn deprecated glob@7.1.6: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+290 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 154ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz 155ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz 155ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 155ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-9.5.0.tgz 163ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/z-schema/-/z-schema-5.0.5.tgz 168ms (cache miss)
+296 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 190ms
+297 silly audit report {}
+298 http fetch GET 200 https://registry.npmjs.org/swagger-ui-express/-/swagger-ui-express-5.0.1.tgz 182ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-6.2.0.tgz 184ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/@apidevtools/openapi-schemas/-/openapi-schemas-2.1.0.tgz 191ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz 191ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 192ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/@jsdevtools/ono/-/ono-7.1.3.tgz 217ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/swagger-jsdoc/-/swagger-jsdoc-6.2.8.tgz 217ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/@apidevtools/json-schema-ref-parser/-/json-schema-ref-parser-9.1.2.tgz 293ms (cache miss)
+306 http fetch GET 200 https://registry.npmjs.org/swagger-ui-dist/-/swagger-ui-dist-5.32.6.tgz 453ms (cache miss)
+307 info run @scarf/scarf@1.4.0 postinstall node_modules/@scarf/scarf node ./report.js
+308 info run @scarf/scarf@1.4.0 postinstall { code: 0, signal: null }
+309 silly ADD node_modules/concat-map
+310 silly ADD node_modules/lodash.isequal
+311 silly ADD node_modules/lodash.get
+312 silly ADD node_modules/@scarf/scarf
+313 silly ADD node_modules/swagger-ui-dist
+314 silly ADD node_modules/argparse
+315 silly ADD node_modules/js-yaml
+316 silly ADD node_modules/@types/json-schema
+317 silly ADD node_modules/z-schema
+318 silly ADD node_modules/z-schema/node_modules/commander
+319 silly ADD node_modules/call-me-maybe
+320 silly ADD node_modules/@jsdevtools/ono
+321 silly ADD node_modules/@apidevtools/swagger-methods
+322 silly ADD node_modules/@apidevtools/openapi-schemas
+323 silly ADD node_modules/@apidevtools/json-schema-ref-parser
+324 silly ADD node_modules/openapi-types
+325 silly ADD node_modules/@apidevtools/swagger-parser
+326 silly ADD node_modules/wrappy
+327 silly ADD node_modules/path-is-absolute
+328 silly ADD node_modules/once
+329 silly ADD node_modules/inflight
+330 silly ADD node_modules/fs.realpath
+331 silly ADD node_modules/esutils
+332 silly ADD node_modules/yaml
+333 silly ADD node_modules/swagger-parser
+334 silly ADD node_modules/lodash.mergewith
+335 silly ADD node_modules/glob
+336 silly ADD node_modules/glob/node_modules/balanced-match
+337 silly ADD node_modules/glob/node_modules/brace-expansion
+338 silly ADD node_modules/glob/node_modules/minimatch
+339 silly ADD node_modules/doctrine
+340 silly ADD node_modules/commander
+341 silly ADD node_modules/swagger-ui-express
+342 silly ADD node_modules/swagger-jsdoc
+343 silly ADD node_modules/fsevents
+344 verbose cwd /Users/chaeminsoo/모바일 캡스톤/backend-server/server
+345 verbose os Darwin 24.6.0
+346 verbose node v25.9.0
+347 verbose npm  v11.12.1
+348 notice
+348 notice New minor version of npm available! 11.12.1 -> 11.14.1
+348 notice Changelog: https://github.com/npm/cli/releases/tag/v11.14.1
+348 notice To update run: npm install -g npm@11.14.1
+348 notice  { force: true, Symbol(proc-log.meta): true }
+349 verbose exit 0
+350 info ok

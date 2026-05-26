@@ -1,0 +1,32 @@
+[
+  {
+    "id": "real_cat_088",
+    "file_name": "00000011_007.jpg",
+    "image_url": "http://127.0.0.1:18080/00000011_007.jpg",
+    "status": 200,
+    "predicted_label": "아비시니안",
+    "confidence": 0.92,
+    "latency_ms": 6768,
+    "attempts": 1
+  },
+  {
+    "id": "real_cat_096",
+    "file_name": "00000011_025.jpg",
+    "image_url": "http://127.0.0.1:18080/00000011_025.jpg",
+    "status": 200,
+    "predicted_label": "아비시니안",
+    "confidence": 0.83,
+    "latency_ms": 8113,
+    "attempts": 1
+  },
+  {
+    "id": "real_cat_098",
+    "file_name": "00000012_010.jpg",
+    "image_url": "http://127.0.0.1:18080/00000012_010.jpg",
+    "status": 200,
+    "predicted_label": "칼리코",
+    "confidence": 0.92,
+    "latency_ms": 8183,
+    "attempts": 1
+  }
+]

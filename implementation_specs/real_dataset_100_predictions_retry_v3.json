@@ -1,0 +1,38 @@
+[
+  {
+    "id": "real_cat_088",
+    "file_name": "00000011_007.jpg",
+    "image_url": "http://127.0.0.1:18080/00000011_007.jpg",
+    "status": "error",
+    "predicted_label": "unknown",
+    "confidence": 0.0,
+    "latency_ms": 0,
+    "attempts": 5,
+    "error_stage": "fetch_error",
+    "error": "[Errno 1] Operation not permitted"
+  },
+  {
+    "id": "real_cat_096",
+    "file_name": "00000011_025.jpg",
+    "image_url": "http://127.0.0.1:18080/00000011_025.jpg",
+    "status": "error",
+    "predicted_label": "unknown",
+    "confidence": 0.0,
+    "latency_ms": 1,
+    "attempts": 5,
+    "error_stage": "fetch_error",
+    "error": "[Errno 1] Operation not permitted"
+  },
+  {
+    "id": "real_cat_098",
+    "file_name": "00000012_010.jpg",
+    "image_url": "http://127.0.0.1:18080/00000012_010.jpg",
+    "status": "error",
+    "predicted_label": "unknown",
+    "confidence": 0.0,
+    "latency_ms": 1,
+    "attempts": 5,
+    "error_stage": "fetch_error",
+    "error": "[Errno 1] Operation not permitted"
+  }
+]

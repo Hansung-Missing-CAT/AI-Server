@@ -1,0 +1,212 @@
+[
+  {
+    "id": "real_cat_001",
+    "file_name": "00000001_000.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 긴 털과 납작한 얼굴을 가진 고양이이지만 허용된 품종 목록에 해당하는 특징이 명확하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_002",
+    "file_name": "00000001_005.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.30) - 새끼 고양이로 품종 특징이 명확하지 않고 털색만으로는 정확한 분류가 어려움",
+    "confidence": 0.3
+  },
+  {
+    "id": "real_cat_003",
+    "file_name": "00000001_008.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-labeled-by-claude | 성체 고양이가 흰색, 주황색, 검은색의 삼색 패턴을 보여 칼리코 특징과 일치함",
+    "confidence": 0.8
+  },
+  {
+    "id": "real_cat_004",
+    "file_name": "00000001_011.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.30) - 회색 태비 패턴의 새끼 고양이로 허용된 품종들의 특징적 패턴과 일치하지 않음",
+    "confidence": 0.3
+  },
+  {
+    "id": "real_cat_005",
+    "file_name": "00000001_012.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-labeled-by-claude | 둥근 얼굴형, 두꺼운 볼, 짧고 조밀한 털, 황금색 큰 눈이 브리티시 숏헤어의 전형적인 특징과 일치",
+    "confidence": 0.8
+  },
+  {
+    "id": "real_cat_006",
+    "file_name": "00000001_016.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 샴 고양이의 특징을 보이지만 허용 품종 목록에 샴이 없어 unknown으로 분류",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_007",
+    "file_name": "00000001_017.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.30) - 어린 고양이로 품종 특징이 명확하지 않고 허용 품종들과 일치하는 특징을 찾기 어려움",
+    "confidence": 0.3
+  },
+  {
+    "id": "real_cat_008",
+    "file_name": "00000001_020.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-labeled-by-claude | 황금빛 갈색 털색과 티킹 패턴, 큰 귀와 아몬드 모양의 눈이 아비시니안의 특징과 일치",
+    "confidence": 0.8
+  },
+  {
+    "id": "real_cat_009",
+    "file_name": "00000001_024.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 회색 태비 패턴의 고양이로 일반적인 믹스breed 특징을 보이며 허용된 품종들의 특징과 명확히 일치하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_010",
+    "file_name": "00000001_027.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-labeled-by-claude | 둥근 얼굴과 짧고 조밀한 털, 회색빛 흰 털색이 브리티시 숏헤어의 특징과 일치함",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_011",
+    "file_name": "00000001_029.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 주황색과 흰색 패턴을 가진 고양이이지만 허용된 품종 중 명확히 일치하는 특징을 찾기 어려움",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_012",
+    "file_name": "00000002_001.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-labeled-by-claude | 큰 귀, 녹색 눈, 틱킹된 갈색 털색과 얼굴 구조가 아비시니안의 특징과 일치함",
+    "confidence": 0.8
+  },
+  {
+    "id": "real_cat_013",
+    "file_name": "00000002_003.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 탭비 패턴의 일반적인 고양이로 특정 품종을 확정하기 어려움",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_014",
+    "file_name": "00000002_008.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 검은색과 흰색의 턱시도 패턴을 가진 고양이로 허용된 품종들의 특징과 일치하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_015",
+    "file_name": "00000002_026.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 주황색과 흰색의 바이컬러 패턴을 가진 고양이로 특정 품종보다는 일반적인 믹스 고양이로 보임",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_016",
+    "file_name": "00000003_007.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 검은색 단색 고양이로 허용된 품종들의 특징적인 패턴이나 체형을 명확히 구분하기 어려움",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_017",
+    "file_name": "00000003_009.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 검은색 털의 고양이이지만 허용된 품종들의 특징이 명확하게 보이지 않음",
+    "confidence": 0.8
+  },
+  {
+    "id": "real_cat_018",
+    "file_name": "00000003_012.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.30) - 털색과 패턴이 보이지만 품종 특징을 명확히 구분하기 어려운 일반적인 고양이로 보임",
+    "confidence": 0.3
+  },
+  {
+    "id": "real_cat_019",
+    "file_name": "00000003_013.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.30) - 주황색 털색을 가진 고양이이지만 이미지가 흐리고 품종 특징을 명확히 구분하기 어려움",
+    "confidence": 0.3
+  },
+  {
+    "id": "real_cat_020",
+    "file_name": "00000003_015.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-labeled-by-claude | 둥근 얼굴형과 짧고 촘촘한 회색 털, 황금색 눈이 브리티시 숏헤어의 특징과 일치함",
+    "confidence": 0.75
+  },
+  {
+    "id": "real_cat_021",
+    "file_name": "00000003_020.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-labeled-by-claude | 검은색, 주황색, 흰색의 3색 패턴이 명확하게 보이는 전형적인 칼리코 고양이",
+    "confidence": 0.85
+  },
+  {
+    "id": "real_cat_022",
+    "file_name": "00000003_024.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 회색 태비 패턴의 고양이로 일반적인 믹스 품종으로 보이며 특정 순종 품종의 명확한 특징이 보이지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_023",
+    "file_name": "00000003_026.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 주황색 태비 새끼고양이로 일반적인 domestic shorthair 특징을 보이며 특정 품종의 고유한 특징이 명확하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_024",
+    "file_name": "00000003_029.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 검은색 단색 고양이로 허용된 품종들의 특징과 일치하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_025",
+    "file_name": "00000004_003.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 회색 장모종 고양이로 허용된 품종들의 특징과 명확히 일치하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_026",
+    "file_name": "00000004_007.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.30) - 고양이가 어둠 속에 있어 털색과 체형 등 품종 식별에 필요한 특징을 명확히 구분할 수 없음",
+    "confidence": 0.3
+  },
+  {
+    "id": "real_cat_027",
+    "file_name": "00000004_008.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 신뢰도 낮음(0.60) - 회색과 흰색 털을 가진 고양이이지만 허용된 품종들의 특징과 정확히 일치하지 않음",
+    "confidence": 0.6
+  },
+  {
+    "id": "real_cat_028",
+    "file_name": "00000004_012.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-labeled-by-claude | 특징적인 따뜻한 갈색 바탕에 어두운 티킹 패턴과 큰 귀, 아몬드 모양 눈이 아비시니안의 전형적인 특징임",
+    "confidence": 0.8
+  },
+  {
+    "id": "real_cat_029",
+    "file_name": "00000004_018.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-labeled-by-claude | 검은 줄무늬가 있는 갈색 태비 고양이로 보이지만 허용된 품종들의 특징과 정확히 일치하지 않음",
+    "confidence": 0.7
+  },
+  {
+    "id": "real_cat_030",
+    "file_name": "00000004_023.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-labeled-by-claude | 흰색, 갈색, 검은색이 섞인 삼색 털 패턴이 칼리코의 전형적인 특징과 일치함",
+    "confidence": 0.8
+  }
+]

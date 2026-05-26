@@ -1,0 +1,235 @@
+{
+  "summary": {
+    "total": 32,
+    "success": 32,
+    "evaluated_count": 32,
+    "top1_accuracy": 0.875,
+    "success_rate": 1.0
+  },
+  "results": [
+    {
+      "id": "anchor_cat_0001",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8917
+    },
+    {
+      "id": "anchor_cat_0002",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8664
+    },
+    {
+      "id": "anchor_cat_0003",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 7551
+    },
+    {
+      "id": "anchor_cat_0004",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 7583
+    },
+    {
+      "id": "anchor_cat_0005",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8016
+    },
+    {
+      "id": "anchor_cat_0006",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 9432
+    },
+    {
+      "id": "anchor_cat_0007",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 8429
+    },
+    {
+      "id": "anchor_cat_0008",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 8682
+    },
+    {
+      "id": "anchor_cat_0009",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 8286
+    },
+    {
+      "id": "anchor_cat_0010",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 8727
+    },
+    {
+      "id": "anchor_cat_0011",
+      "status": 200,
+      "predicted_label": "unknown",
+      "expected_label": "아비시니안",
+      "latency_ms": 9058
+    },
+    {
+      "id": "anchor_cat_0012",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 7842
+    },
+    {
+      "id": "anchor_cat_0013",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 7304
+    },
+    {
+      "id": "anchor_cat_0014",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 9003
+    },
+    {
+      "id": "anchor_cat_0015",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 9067
+    },
+    {
+      "id": "anchor_cat_0016",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 9051
+    },
+    {
+      "id": "anchor_cat_0017",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8606
+    },
+    {
+      "id": "anchor_cat_0018",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8728
+    },
+    {
+      "id": "anchor_cat_0019",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 9036
+    },
+    {
+      "id": "anchor_cat_0020",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 7428
+    },
+    {
+      "id": "anchor_cat_0021",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 9819
+    },
+    {
+      "id": "anchor_cat_0022",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 8106
+    },
+    {
+      "id": "anchor_cat_0023",
+      "status": 200,
+      "predicted_label": "unknown",
+      "expected_label": "아비시니안",
+      "latency_ms": 10184
+    },
+    {
+      "id": "anchor_cat_0024",
+      "status": 200,
+      "predicted_label": "unknown",
+      "expected_label": "아비시니안",
+      "latency_ms": 7964
+    },
+    {
+      "id": "anchor_cat_0025",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 7877
+    },
+    {
+      "id": "anchor_cat_0026",
+      "status": 200,
+      "predicted_label": "unknown",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8814
+    },
+    {
+      "id": "anchor_cat_0027",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8751
+    },
+    {
+      "id": "anchor_cat_0028",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8616
+    },
+    {
+      "id": "anchor_cat_0029",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 9206
+    },
+    {
+      "id": "anchor_cat_0030",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 8359
+    },
+    {
+      "id": "anchor_cat_0031",
+      "status": 200,
+      "predicted_label": "아비시니안",
+      "expected_label": "아비시니안",
+      "latency_ms": 8126
+    },
+    {
+      "id": "anchor_cat_0032",
+      "status": 200,
+      "predicted_label": "브리티시 숏헤어",
+      "expected_label": "브리티시 숏헤어",
+      "latency_ms": 7809
+    }
+  ]
+}

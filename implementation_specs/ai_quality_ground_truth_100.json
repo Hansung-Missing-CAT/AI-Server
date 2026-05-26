@@ -1,0 +1,402 @@
+[
+  {
+    "id": "cat_001",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_002",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_003",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_004",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_005",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_006",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_007",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_008",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_009",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_010",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_011",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_012",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_013",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_014",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_015",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_016",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_017",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_018",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_019",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_020",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_021",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_022",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_023",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_024",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_025",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_026",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_027",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_028",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_029",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_030",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_031",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_032",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_033",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_034",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_035",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_036",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_037",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_038",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_039",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_040",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_041",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_042",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_043",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_044",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_045",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_046",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_047",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_048",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_049",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_050",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_051",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_052",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_053",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_054",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_055",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_056",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_057",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_058",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_059",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_060",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_061",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_062",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_063",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_064",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_065",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_066",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_067",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_068",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_069",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_070",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_071",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_072",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_073",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_074",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_075",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_076",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_077",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_078",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_079",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_080",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_081",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_082",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_083",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_084",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_085",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_086",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_087",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_088",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_089",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_090",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_091",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_092",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_093",
+    "expected_label": "칼리코"
+  },
+  {
+    "id": "cat_094",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_095",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_096",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_097",
+    "expected_label": "unknown"
+  },
+  {
+    "id": "cat_098",
+    "expected_label": "아비시니안"
+  },
+  {
+    "id": "cat_099",
+    "expected_label": "브리티시 숏헤어"
+  },
+  {
+    "id": "cat_100",
+    "expected_label": "칼리코"
+  }
+]

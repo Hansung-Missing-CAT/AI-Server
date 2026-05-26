@@ -1,0 +1,11 @@
+{
+  "name": "missing-pet-finder-root",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "test:up": "bash scripts/pm2-test-up.sh",
+    "test:quality": "bash scripts/pm2-test-run-quality.sh",
+    "test:down": "bash scripts/pm2-down.sh",
+    "test:logs": "pm2 logs --lines 100"
+  }
+}

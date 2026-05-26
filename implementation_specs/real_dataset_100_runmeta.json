@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-05-25T15:18:53.421494+00:00",
+  "status": "ok",
+  "dataset_path": "/Users/chaeminsoo/모바일 캡스톤/backend-server/implementation_specs/real_dataset_100_unlabeled.json",
+  "predictions_path": "/Users/chaeminsoo/모바일 캡스톤/backend-server/implementation_specs/real_dataset_100_predictions.json",
+  "gt_v1_path": "/Users/chaeminsoo/모바일 캡스톤/backend-server/implementation_specs/real_dataset_30_ground_truth_v2_human.json",
+  "ground_truth_version": "v2-human",
+  "prompt_version": "fallback_unknown_relaxed_v2",
+  "provider_gate": {
+    "ok": true,
+    "min_detect_rate": 0.34,
+    "detect_rate": 1.0,
+    "detected": 3,
+    "total": 3,
+    "results": [
+      {
+        "image_url": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+        "breed": "아비시니안",
+        "confidence": 0.92,
+        "detected": true
+      },
+      {
+        "image_url": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg",
+        "breed": "브리티시 숏헤어",
+        "confidence": 0.92,
+        "detected": true
+      },
+      {
+        "image_url": "https://cdn2.thecatapi.com/images/bpc.jpg",
+        "breed": "칼리코",
+        "confidence": 0.92,
+        "detected": true
+      }
+    ]
+  },
+  "metrics": {
+    "total_count": 100,
+    "labeled_count": 30,
+    "evaluated_count": 30,
+    "top1_accuracy": 0.5667,
+    "pred_unknown_rate": 0.51,
+    "latency_p95_ok_ms": 2915596,
+    "latency_p95_all_ms": 2915596,
+    "latency_p95_retry_inclusive_ms": 0,
+    "success_rate": 1.0
+  }
+}

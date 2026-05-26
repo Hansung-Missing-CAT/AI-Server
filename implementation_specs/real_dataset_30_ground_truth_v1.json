@@ -1,0 +1,182 @@
+[
+  {
+    "id": "real_cat_001",
+    "file_name": "00000001_000.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_002",
+    "file_name": "00000001_005.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_003",
+    "file_name": "00000001_008.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_004",
+    "file_name": "00000001_011.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_005",
+    "file_name": "00000001_012.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_006",
+    "file_name": "00000001_016.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_007",
+    "file_name": "00000001_017.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_008",
+    "file_name": "00000001_020.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_009",
+    "file_name": "00000001_024.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_010",
+    "file_name": "00000001_027.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_011",
+    "file_name": "00000001_029.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_012",
+    "file_name": "00000002_001.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_013",
+    "file_name": "00000002_003.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_014",
+    "file_name": "00000002_008.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_015",
+    "file_name": "00000002_026.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_016",
+    "file_name": "00000003_007.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_017",
+    "file_name": "00000003_009.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_018",
+    "file_name": "00000003_012.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_019",
+    "file_name": "00000003_013.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_020",
+    "file_name": "00000003_015.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_021",
+    "file_name": "00000003_020.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_022",
+    "file_name": "00000003_024.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_023",
+    "file_name": "00000003_026.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_024",
+    "file_name": "00000003_029.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_025",
+    "file_name": "00000004_003.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_026",
+    "file_name": "00000004_007.jpg",
+    "expected_label": "unknown",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_027",
+    "file_name": "00000004_008.jpg",
+    "expected_label": "브리티시 숏헤어",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_028",
+    "file_name": "00000004_012.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_029",
+    "file_name": "00000004_018.jpg",
+    "expected_label": "아비시니안",
+    "notes": "auto-provisional-from-model"
+  },
+  {
+    "id": "real_cat_030",
+    "file_name": "00000004_023.jpg",
+    "expected_label": "칼리코",
+    "notes": "auto-provisional-from-model"
+  }
+]

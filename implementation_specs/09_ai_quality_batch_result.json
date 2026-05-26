@@ -1,0 +1,315 @@
+{
+  "summary": {
+    "total": 30,
+    "success": 30,
+    "breed_detected": 14,
+    "breed_detect_rate": 0.4667,
+    "latency_avg_ms": 28911.17,
+    "latency_p95_ms": 12732,
+    "top1_accuracy": 0.8,
+    "unknown_rate": 1.0,
+    "evaluated_count": 30
+  },
+  "results": [
+    {
+      "id": "cat_001",
+      "labelGuess": "Abyssinian",
+      "status": 200,
+      "latencyMs": 15163,
+      "breed": "아비시니안",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_002",
+      "labelGuess": "Longhair",
+      "status": 200,
+      "latencyMs": 8462,
+      "breed": "브리티시 숏헤어",
+      "confidence": 0.86,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_003",
+      "labelGuess": "Calico",
+      "status": 200,
+      "latencyMs": 8952,
+      "breed": "칼리코",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_004",
+      "labelGuess": "Shorthair",
+      "status": 200,
+      "latencyMs": 8438,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 62.04
+    },
+    {
+      "id": "cat_005",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 10220,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 64.5
+    },
+    {
+      "id": "cat_006",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 10300,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 68.12
+    },
+    {
+      "id": "cat_007",
+      "labelGuess": "Kitten",
+      "status": 200,
+      "latencyMs": 8669,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 69.81
+    },
+    {
+      "id": "cat_008",
+      "labelGuess": "Abyssinian",
+      "status": 200,
+      "latencyMs": 8150,
+      "breed": "아비시니안",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_009",
+      "labelGuess": "Longhair",
+      "status": 200,
+      "latencyMs": 9279,
+      "breed": "브리티시 숏헤어",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_010",
+      "labelGuess": "Calico",
+      "status": 200,
+      "latencyMs": 8758,
+      "breed": "칼리코",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_011",
+      "labelGuess": "Shorthair",
+      "status": 200,
+      "latencyMs": 12732,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 68.0
+    },
+    {
+      "id": "cat_012",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 9582,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 63.89
+    },
+    {
+      "id": "cat_013",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 8394,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 66.56
+    },
+    {
+      "id": "cat_014",
+      "labelGuess": "Abyssinian",
+      "status": 200,
+      "latencyMs": 8932,
+      "breed": "아비시니안",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_015",
+      "labelGuess": "Longhair",
+      "status": 200,
+      "latencyMs": 597026,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 61.55
+    },
+    {
+      "id": "cat_016",
+      "labelGuess": "Calico",
+      "status": 200,
+      "latencyMs": 8311,
+      "breed": "칼리코",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_017",
+      "labelGuess": "Shorthair",
+      "status": 200,
+      "latencyMs": 9000,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 65.94
+    },
+    {
+      "id": "cat_018",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 9583,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 65.74
+    },
+    {
+      "id": "cat_019",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 8884,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 67.58
+    },
+    {
+      "id": "cat_020",
+      "labelGuess": "Kitten",
+      "status": 200,
+      "latencyMs": 9040,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 70.46
+    },
+    {
+      "id": "cat_021",
+      "labelGuess": "Abyssinian",
+      "status": 200,
+      "latencyMs": 9000,
+      "breed": "아비시니안",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_022",
+      "labelGuess": "Longhair",
+      "status": 200,
+      "latencyMs": 8882,
+      "breed": "브리티시 숏헤어",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_023",
+      "labelGuess": "Calico",
+      "status": 200,
+      "latencyMs": 8082,
+      "breed": "칼리코",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_024",
+      "labelGuess": "Shorthair",
+      "status": 200,
+      "latencyMs": 9092,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 66.02
+    },
+    {
+      "id": "cat_025",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 9420,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 68.68
+    },
+    {
+      "id": "cat_026",
+      "labelGuess": "House cat",
+      "status": 200,
+      "latencyMs": 9381,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 66.75
+    },
+    {
+      "id": "cat_027",
+      "labelGuess": "Abyssinian",
+      "status": 200,
+      "latencyMs": 8472,
+      "breed": "아비시니안",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_028",
+      "labelGuess": "Longhair",
+      "status": 200,
+      "latencyMs": 8626,
+      "breed": "브리티시 숏헤어",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_029",
+      "labelGuess": "Calico",
+      "status": 200,
+      "latencyMs": 8933,
+      "breed": "칼리코",
+      "confidence": 0.92,
+      "breedDetected": true,
+      "top1Similarity": null
+    },
+    {
+      "id": "cat_030",
+      "labelGuess": "Shorthair",
+      "status": 200,
+      "latencyMs": 9572,
+      "breed": null,
+      "confidence": 0.0,
+      "breedDetected": false,
+      "top1Similarity": 69.68
+    }
+  ]
+}

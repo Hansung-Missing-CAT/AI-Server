@@ -1,0 +1,18 @@
+[project]
+name = "missing-pet-finder-ai-server"
+version = "0.1.0"
+description = "FastAPI AI pipeline for Missing Pet Finder"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "anthropic",
+  "httpx",
+  "supabase",
+  "sentence-transformers",
+  "redis",
+  "Pillow",
+  "bullmq",
+  "pydantic",
+  "python-dotenv"
+]
