@@ -21,29 +21,14 @@ from services.vector_search import search_similar_pets
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
-
 def publish_progress(user_id: str, tip_id: str, progress: int, message: str) -> None:
-    redis = get_redis()
-    payload = {
-        "userId": user_id,
-        "tipId": tip_id,
-        "progress": progress,
-        "message": message,
-        "timestamp": _now_iso(),
-    }
-    redis.publish("tip:progress", json.dumps(payload, ensure_ascii=False))
+    print(f"[PROGRESS] tip={tip_id} progress={progress} msg={message}")
+    return
 
 
 def publish_done(user_id: str, tip_id: str, status: str) -> None:
-    redis = get_redis()
-    payload = {
-        "userId": user_id,
-        "tipId": tip_id,
-        "status": status,
-        "timestamp": _now_iso(),
-    }
-    redis.publish("tip:done", json.dumps(payload, ensure_ascii=False))
-
+    print(f"[DONE] tip={tip_id} status={status}")
+    return
 
 async def process_tip_row(row: dict) -> None:
     supabase = get_supabase()
@@ -61,7 +46,11 @@ async def process_tip_row(row: dict) -> None:
         supabase.table("tips").update({"progress": 35}).eq("id", tip_id).execute()
 
         publish_progress(user_id, tip_id, 65, "유사도 매칭 중")
+        print(f"[DEBUG] embed_text 시작...")
         vector = embed_text(feature_text)
+        print(f"[DEBUG] embed_text 완료, vector 길이: {len(vector)}")
+
+        print(f"[DEBUG] search_similar_pets 시작...")
         matches = search_similar_pets(
             query_vector=vector,
             breed_filter=breed if confidence >= 0.7 else None,
@@ -70,6 +59,7 @@ async def process_tip_row(row: dict) -> None:
             radius_m=2000,
             match_count=3,
         )
+        print(f"[DEBUG] search_similar_pets 완료, {len(matches)}건")
 
         result_payload = {
             "breed": breed,
@@ -78,12 +68,17 @@ async def process_tip_row(row: dict) -> None:
             "topMatches": matches,
         }
 
+        print(f"[DEBUG] tips 테이블 done 업데이트 시작...")
         supabase.table("tips").update(
             {"status": "done", "progress": 100, "results": result_payload, "updated_at": _now_iso()}
         ).eq("id", tip_id).execute()
+        print(f"[DEBUG] tips 테이블 업데이트 완료!")
         publish_progress(user_id, tip_id, 100, "완료")
         publish_done(user_id, tip_id, "done")
     except Exception as exc:
+        print(f"[ERROR] process_tip_row 실패: {exc}")
+        import traceback
+        traceback.print_exc()
         supabase.table("tips").update(
             {"status": "failed", "error_msg": str(exc), "updated_at": _now_iso()}
         ).eq("id", tip_id).execute()
@@ -92,6 +87,7 @@ async def process_tip_row(row: dict) -> None:
 
 async def poll_and_process(interval_seconds: int = 3) -> None:
     supabase = get_supabase()
+    print("[INFO] 워커 폴링 시작...")
     while True:
         try:
             resp = (
@@ -103,10 +99,12 @@ async def poll_and_process(interval_seconds: int = 3) -> None:
                 .execute()
             )
             rows = resp.data or []
+            if rows:
+                print(f"[INFO] processing 상태 {len(rows)}건 발견")
             for row in rows:
                 await process_tip_row(row)
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[WARN] poll 에러: {e}")
         await asyncio.sleep(interval_seconds)
 
 
