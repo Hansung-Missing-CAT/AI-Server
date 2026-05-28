@@ -58,11 +58,12 @@ async def process_tip_row(row: dict) -> None:
         supabase.table("tips").update({"progress": 10}).eq("id", tip_id).execute()
 
         publish_progress(user_id, tip_id, 35, "특징점 추출 중")
+        supabase.table("tips").update({"progress": 35}).eq("id", tip_id).execute()
         breed, confidence = await classify_breed(image_urls)
         feature_text = await augment_features(image_urls, breed)
-        supabase.table("tips").update({"progress": 35}).eq("id", tip_id).execute()
 
         publish_progress(user_id, tip_id, 65, "유사도 매칭 중")
+        supabase.table("tips").update({"progress": 65}).eq("id", tip_id).execute()
         print(f"[DEBUG] embed_text 시작...")
         vector = embed_text(feature_text)
         print(f"[DEBUG] embed_text 완료, vector 길이: {len(vector)}")
