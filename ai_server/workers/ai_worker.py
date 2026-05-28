@@ -23,12 +23,29 @@ def _now_iso() -> str:
 
 def publish_progress(user_id: str, tip_id: str, progress: int, message: str) -> None:
     print(f"[PROGRESS] tip={tip_id} progress={progress} msg={message}")
-    return
+    try:
+        redis = get_redis()
+        redis.publish("tip:progress", json.dumps({
+            "userId": user_id,
+            "tipId": tip_id,
+            "progress": progress,
+            "message": message,
+        }))
+    except Exception as e:
+        print(f"[WARN] Redis publish 실패 (tip:progress): {e}")
 
 
 def publish_done(user_id: str, tip_id: str, status: str) -> None:
     print(f"[DONE] tip={tip_id} status={status}")
-    return
+    try:
+        redis = get_redis()
+        redis.publish("tip:done", json.dumps({
+            "userId": user_id,
+            "tipId": tip_id,
+            "status": status,
+        }))
+    except Exception as e:
+        print(f"[WARN] Redis publish 실패 (tip:done): {e}")
 
 async def process_tip_row(row: dict) -> None:
     supabase = get_supabase()
