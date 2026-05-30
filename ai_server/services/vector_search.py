@@ -18,20 +18,18 @@ def _to_match(item: dict) -> dict:
 
 def search_similar_pets(
     query_vector: list[float],
-    breed_filter: str | None,
     lat: float | None,
     lng: float | None,
     radius_m: int = 2000,
     match_count: int = 3,
 ) -> list[dict]:
     supabase = get_supabase()
-    print(f"[DEBUG] search_similar_pets RPC 호출 시작... breed_filter={breed_filter}")
+    print(f"[DEBUG] search_similar_pets RPC 호출 시작...")
     try:
         resp = supabase.rpc(
             "search_similar_pets",
             {
                 "query_embedding": query_vector,
-                "breed_filter": breed_filter,
                 "lat": lat,
                 "lng": lng,
                 "radius_m": radius_m,

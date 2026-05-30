@@ -68,10 +68,16 @@ async def process_tip_row(row: dict) -> None:
         vector = embed_text(feature_text)
         print(f"[DEBUG] embed_text 완료, vector 길이: {len(vector)}")
 
-        print(f"[DEBUG] search_similar_pets 시작...")
+        # 매칭 전 인덱스 현황 진단 — 0건이면 missing_pets 임베딩이 아직 안 된 것
+        try:
+            emb_count_resp = supabase.table("pet_embeddings").select("pet_id", count="exact").limit(1).execute()
+            print(f"[DEBUG] pet_embeddings 현재 보유 건수: {emb_count_resp.count}")
+        except Exception as _e:
+            print(f"[WARN] pet_embeddings count 조회 실패: {_e}")
+
+        print(f"[DEBUG] search_similar_pets 시작... (breed={breed}, confidence={confidence:.2f})")
         matches = search_similar_pets(
             query_vector=vector,
-            breed_filter=breed if confidence >= 0.7 else None,
             lat=None,
             lng=None,
             radius_m=2000,
@@ -133,6 +139,24 @@ async def poll_and_process(interval_seconds: int = 3) -> None:
     supabase = get_supabase()
     print("[INFO] 워커 폴링 시작...")
     while True:
+        # --- 임베딩 인덱싱 폴링 (tip 매칭보다 먼저 처리해야 검색 가능) ---
+        try:
+            embed_resp = (
+                supabase.table("missing_pets")
+                .select("id,breed,photos")
+                .eq("embedding_status", "pending")
+                .order("created_at")
+                .limit(5)
+                .execute()
+            )
+            embed_rows = embed_resp.data or []
+            if embed_rows:
+                print(f"[INFO] embedding pending 상태 {len(embed_rows)}건 발견")
+            for row in embed_rows:
+                await process_embedding(row)
+        except Exception as e:
+            print(f"[WARN] embedding poll 에러: {e}")
+
         # --- tip 분석 폴링 ---
         try:
             resp = (
@@ -150,24 +174,6 @@ async def poll_and_process(interval_seconds: int = 3) -> None:
                 await process_tip_row(row)
         except Exception as e:
             print(f"[WARN] tips poll 에러: {e}")
-
-        # --- 임베딩 인덱싱 폴링 ---
-        try:
-            embed_resp = (
-                supabase.table("missing_pets")
-                .select("id,breed,photos")
-                .eq("embedding_status", "pending")
-                .order("created_at")
-                .limit(5)
-                .execute()
-            )
-            embed_rows = embed_resp.data or []
-            if embed_rows:
-                print(f"[INFO] embedding pending 상태 {len(embed_rows)}건 발견")
-            for row in embed_rows:
-                await process_embedding(row)
-        except Exception as e:
-            print(f"[WARN] embedding poll 에러: {e}")
 
         await asyncio.sleep(interval_seconds)
 
