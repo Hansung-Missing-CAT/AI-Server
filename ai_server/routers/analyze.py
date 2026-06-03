@@ -65,14 +65,12 @@ async def analyze_tip(payload: AnalyzeRequest) -> AnalyzeResponse:
         diagnostics["errors"].append(f"embed_text:{exc}")
         embedding = []
 
-    apply_breed_filter = (payload.breedHint or breed) if confidence >= 0.7 else None
     if embedding:
         try:
             top_matches = await asyncio.wait_for(
                 asyncio.to_thread(
                     search_similar_pets,
                     query_vector=embedding,
-                    breed_filter=apply_breed_filter,
                     lat=payload.latitude,
                     lng=payload.longitude,
                     radius_m=payload.radiusM or 2000,

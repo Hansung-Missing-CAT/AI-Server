@@ -16,7 +16,7 @@ async function registerRealtimeHandlers(io) {
       if (channel === 'tip:progress') {
         emitToUser(io, userId, 'tip.progress', payload);
       } else if (channel === 'tip:done') {
-        emitToUser(io, userId, 'tip.done', payload);
+        emitToUser(io, userId, 'tip.complete', payload);
       }
     } catch {
       // ignore malformed pub/sub payloads

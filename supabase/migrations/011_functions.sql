@@ -1,6 +1,5 @@
 CREATE OR REPLACE FUNCTION public.search_similar_pets(
     query_embedding VECTOR(768),
-    breed_filter TEXT DEFAULT NULL,
     lat DOUBLE PRECISION DEFAULT NULL,
     lng DOUBLE PRECISION DEFAULT NULL,
     radius_m DOUBLE PRECISION DEFAULT NULL,
@@ -27,20 +26,17 @@ AS $$
     FROM public.pet_embeddings pe
     JOIN public.missing_pets mp ON mp.id = pe.pet_id
     WHERE
-        (breed_filter IS NULL OR mp.breed = breed_filter)
-        AND (
-            lat IS NULL OR lng IS NULL OR radius_m IS NULL
-            OR (
-                6371000 * acos(
-                    LEAST(
-                        1,
-                        cos(radians(lat)) * cos(radians(mp.latitude)) *
-                        cos(radians(mp.longitude) - radians(lng)) +
-                        sin(radians(lat)) * sin(radians(mp.latitude))
-                    )
+        lat IS NULL OR lng IS NULL OR radius_m IS NULL
+        OR (
+            6371000 * acos(
+                LEAST(
+                    1,
+                    cos(radians(lat)) * cos(radians(mp.latitude)) *
+                    cos(radians(mp.longitude) - radians(lng)) +
+                    sin(radians(lat)) * sin(radians(mp.latitude))
                 )
-            ) <= radius_m
-        )
+            )
+        ) <= radius_m
     ORDER BY pe.embedding <=> query_embedding
     LIMIT match_count;
 $$;

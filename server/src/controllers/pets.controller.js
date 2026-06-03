@@ -13,6 +13,7 @@ async function listPets(req, res, next) {
       status: req.query.status,
       cursor: req.query.cursor,
       limit: parseLimit(req.query.limit),
+      userId: req.query.userId,
     });
     return success(res, result);
   } catch (err) {

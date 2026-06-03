@@ -18,25 +18,31 @@ def _to_match(item: dict) -> dict:
 
 def search_similar_pets(
     query_vector: list[float],
-    breed_filter: str | None,
     lat: float | None,
     lng: float | None,
     radius_m: int = 2000,
     match_count: int = 3,
 ) -> list[dict]:
     supabase = get_supabase()
-    resp = supabase.rpc(
-        "search_similar_pets",
-        {
-            "query_embedding": query_vector,
-            "breed_filter": breed_filter,
-            "lat": lat,
-            "lng": lng,
-            "radius_m": radius_m,
-            "match_count": match_count,
-        },
-    ).execute()
-    return [_to_match(x) for x in (resp.data or [])]
+    print(f"[DEBUG] search_similar_pets RPC 호출 시작...")
+    try:
+        resp = supabase.rpc(
+            "search_similar_pets",
+            {
+                "query_embedding": query_vector,
+                "lat": lat,
+                "lng": lng,
+                "radius_m": radius_m,
+                "match_count": match_count,
+            },
+        ).execute()
+        print(f"[DEBUG] search_similar_pets RPC 응답: {len(resp.data or [])}건")
+        return [_to_match(x) for x in (resp.data or [])]
+    except Exception as e:
+        print(f"[ERROR] search_similar_pets 실패: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
 
 
 def upsert_embedding(pet_id: str, feature_text: str, embedding: list[float]) -> None:

@@ -6,9 +6,20 @@ function assertSupabase() {
   if (!supabaseAdmin) throw new AppError('SUPABASE_NOT_CONFIGURED', 'Supabase 환경 변수가 설정되지 않았습니다.', 500);
 }
 
+// 참여자 확인용 내부 함수 — JOIN 없이 raw 데이터만 반환
+async function _getChatRaw(chatId, userId) {
+  assertSupabase();
+  const { data, error } = await supabaseAdmin.from('chats').select('*').eq('id', chatId).maybeSingle();
+  if (error) throw new AppError('CHAT_FETCH_FAILED', '채팅방 조회에 실패했습니다.', 400);
+  if (!data) throw new NotFoundError('채팅방을 찾을 수 없습니다.');
+  if (!Array.isArray(data.participant_ids) || !data.participant_ids.includes(userId)) {
+    throw new ForbiddenError('채팅 참여자만 접근할 수 있습니다.');
+  }
+  return data;
+}
+
 async function ensureParticipant(chatId, userId) {
-  const chat = await getChatById(chatId, userId);
-  return chat;
+  return _getChatRaw(chatId, userId);
 }
 
 async function getChatList(userId, { q, cursor, limit = 20 }) {
@@ -85,14 +96,27 @@ async function getChatList(userId, { q, cursor, limit = 20 }) {
 }
 
 async function getChatById(chatId, userId) {
-  assertSupabase();
-  const { data, error } = await supabaseAdmin.from('chats').select('*').eq('id', chatId).maybeSingle();
-  if (error) throw new AppError('CHAT_FETCH_FAILED', '채팅방 조회에 실패했습니다.', 400);
-  if (!data) throw new NotFoundError('채팅방을 찾을 수 없습니다.');
-  if (!Array.isArray(data.participant_ids) || !data.participant_ids.includes(userId)) {
-    throw new ForbiddenError('채팅 참여자만 접근할 수 있습니다.');
-  }
-  return data;
+  const data = await _getChatRaw(chatId, userId);
+
+  const otherUserId = (data.participant_ids || []).find((id) => id !== userId);
+
+  const [{ data: petRow }, { data: otherUser }] = await Promise.all([
+    data.pet_id
+      ? supabaseAdmin.from('missing_pets').select('id,name,photos').eq('id', data.pet_id).maybeSingle()
+      : Promise.resolve({ data: null }),
+    otherUserId
+      ? supabaseAdmin.from('users').select('id,name,avatar_url,is_online').eq('id', otherUserId).maybeSingle()
+      : Promise.resolve({ data: null }),
+  ]);
+
+  return {
+    ...data,
+    petName: petRow?.name || null,
+    petPhoto: (petRow?.photos || [])[0] || null,
+    otherUserName: otherUser?.name || null,
+    otherUserAvatar: otherUser?.avatar_url || null,
+    isOnline: otherUser?.is_online || false,
+  };
 }
 
 async function getChatMessages(chatId, userId, { cursor, limit = 20 }) {
@@ -113,6 +137,9 @@ async function getChatMessages(chatId, userId, { cursor, limit = 20 }) {
 
 async function createOrGetChat(petId, userId, otherUserId) {
   assertSupabase();
+  if (userId === otherUserId) {
+    throw new AppError('CHAT_SELF_NOT_ALLOWED', '자기 자신과 채팅할 수 없습니다.', 400);
+  }
   const { data: existing, error: findError } = await supabaseAdmin
     .from('chats')
     .select('*')

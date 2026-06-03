@@ -165,11 +165,16 @@ async function resetPassword(req, res, next) {
 async function loginWithGoogle(req, res, next) {
   try {
     ensureSupabase(supabaseAnon);
-    const { idToken } = req.body;
+    const { idToken, nonce } = req.body;
+    console.log('[Google Login] idToken 길이:', idToken?.length, 'nonce:', nonce);
     const { data, error } = await supabaseAnon.auth.signInWithIdToken({
       provider: 'google',
       token: idToken,
+      nonce: nonce,
     });
+    
+    console.log('[Google Login] error:', error);
+    console.log('[Google Login] data:', data?.user?.email);
     if (error || !data?.session || !data?.user) {
       throw new AppError('GOOGLE_LOGIN_FAILED', 'Google 로그인에 실패했습니다.', 401);
     }
