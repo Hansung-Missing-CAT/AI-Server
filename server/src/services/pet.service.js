@@ -14,7 +14,7 @@ function applyTextSearch(query, q) {
   return query.or(`name.ilike.%${q}%,breed.ilike.%${q}%,location.ilike.%${q}%`);
 }
 
-async function listPets({ district, q, sort = 'latest', status, cursor, limit = 20 }) {
+async function listPets({ district, q, sort = 'latest', status, cursor, limit = 20, userId }) {
   assertSupabase();
   const cursorValue = decodeCursor(cursor);
   let query = supabaseAdmin
@@ -26,6 +26,7 @@ async function listPets({ district, q, sort = 'latest', status, cursor, limit = 
     .order('id', { ascending: false })
     .limit(limit + 1);
 
+  if (userId) query = query.eq('reporter_id', userId);
   if (district && district !== '전체') query = query.eq('district', district);
   if (status && ['실종', '찾음'].includes(status)) query = query.eq('status', status);
   query = applyTextSearch(query, q);
